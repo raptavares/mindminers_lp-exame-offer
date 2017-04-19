@@ -1,0 +1,34 @@
+/* use this file just for theme versions */
+
+#footer .contact__item p {
+	margin:0;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+.template-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    top: 0;
+	left:0;
+}
+.page-template-default .start-screen--static-bg--style-1, .page-template-fullwidth-page .start-screen--static-bg--style-1, .blog .start-screen--static-bg--style-1, .archive .start-screen--static-bg--style-1, .search .start-screen--static-bg--style-1, .error404 .start-screen--static-bg--style-1, .single .start-screen--static-bg--style-1 {
+    border-bottom: 0px;
+}
+ .footer--style-2 .custom-btn.light.inverted, .footer--style-3 .custom-btn.light.inverted {
+	display: block;
+	margin-top:10px;
+}
+#footer .contact__item > a[href^="mailto"]:hover {
+    text-decoration: none;
+	border-bottom: none;
+}
